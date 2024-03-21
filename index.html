@@ -8,5 +8,48 @@
     <link rel="stylesheet" href="/dist/css/index.css" />
     <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
   </head>
-  <body></body>
+  <body class="min-vh-100 py-5 d-flex flex-column justify-content-center gap-5">
+    <header class="mx-auto">
+      <a href="/" class="d-flex align-items-center gap-2">
+        <img src="/assets/img/logo.svg" alt="SocialDev logo" />
+        <span class="font-monospace fs-3 text-light">SocialDev</span>
+      </a>
+    </header>
+
+    <main class="container d-flex justify-content-center">
+      <section class="card">
+        <div class="card-body py-5 px-sm-5">
+          <h1 class="mb-3 text-capitalize text-center">Sign in</h1>
+          <p class="mb-4 text-center">Welcome! Please enter your details below.</p>
+
+          <form action="/profile/">
+            <div class="input-group mb-4">
+              <span class="input-group-text">
+                <i class="bi bi-envelope-fill"></i>
+              </span>
+
+              <div class="form-floating">
+                <input type="email" class="form-control" id="email" placeholder="email@example.com" required />
+                <label for="email">Email address</label>
+              </div>
+            </div>
+
+            <div class="input-group mb-4">
+              <span class="input-group-text">
+                <i class="bi bi-lock-fill"></i>
+              </span>
+
+              <div class="form-floating">
+                <input type="password" class="form-control" id="password" placeholder="Password" minlength="8" required />
+                <label for="password">Password</label>
+              </div>
+            </div>
+
+            <input type="submit" value="Sign in" class="btn btn-primary w-100 mb-3 text-capitalize" />
+            <p>Don't have an account? <a href="#" class="link-body-emphasis d-inline-block text-capitalize">Sign up</a></p>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
