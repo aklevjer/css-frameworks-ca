@@ -71,3 +71,6 @@ $grid-breakpoints: (
   md: 768px,
   lg: 992px,
 );
+
+// Enable negative margins
+$enable-negative-margins: true;
