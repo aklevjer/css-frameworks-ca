@@ -10,8 +10,8 @@ $dark: #232323;
 $light: #e3e3e3;
 
 // Typography
-$font-family-base: "Kumbh Sans";
-$font-family-monospace: "Source Code Pro";
+$font-family-base: "Kumbh Sans", Helvetica, Verdana, sans-serif;
+$font-family-monospace: "Source Code Pro", "Courier New", Courier, monospace;
 $font-weight-base: 300;
 $headings-font-weight: 600;
 $headings-color: $light;
