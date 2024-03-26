@@ -41,7 +41,9 @@ $card-bg: $dark;
 $card-border-color: $border-color;
 
 // Buttons
-$btn-font-weight: 400;
+$btn-padding-y: 0.6rem;
+$btn-padding-y-sm: 0.5rem;
+$btn-line-height: 1;
 
 // Links
 $link-color: $light;
