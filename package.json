@@ -1,7 +1,7 @@
 {
   "name": "css-frameworks-ca",
   "version": "0.0.1",
-  "description": "Course Assignment for the CSS Frameworks course at Noroff",
+  "description": "A social media app developed as the course assignment in the CSS frameworks course at Noroff",
   "scripts": {
     "test": "echo \"We will learn more about testing in the Workflow course\" && exit 1",
     "build": "sass src/scss:dist/css",
