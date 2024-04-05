@@ -1,0 +1,78 @@
+// Colors
+$primary: #2978ad;
+$secondary: #515151;
+$body-bg: #171717;
+$body-color: #dadada;
+$body-emphasis-color: #77b5df;
+$border-color: #333333;
+$input-bg: #2e2e2e;
+$dark: #232323;
+$light: #e3e3e3;
+
+// Typography
+$font-family-base: "Kumbh Sans", Helvetica, Verdana, sans-serif;
+$font-family-monospace: "Source Code Pro", "Courier New", Courier, monospace;
+$font-weight-base: 300;
+$headings-font-weight: 600;
+$headings-color: $light;
+$headings-margin-bottom: 0;
+$paragraph-margin-bottom: 0;
+$h1-font-size: 2rem;
+$h2-font-size: 1.25rem;
+
+// Gutter
+$grid-gutter-width: 2rem;
+
+// Navbar
+$navbar-padding-y: 1rem;
+$navbar-nav-link-padding-x: 1rem;
+$navbar-toggler-padding-x: 0.35rem;
+$navbar-brand-font-size: 1.5rem;
+$navbar-dark-color: $light;
+$navbar-dark-toggler-border-color: $secondary;
+$navbar-dark-brand-color: $light;
+$navbar-dark-brand-hover-color: $light;
+$nav-link-font-weight: 400;
+
+// Cards
+$card-spacer-x: 1.5rem;
+$card-spacer-y: 1.5rem;
+$card-bg: $dark;
+$card-border-color: $border-color;
+
+// Buttons
+$btn-padding-y: 0.6rem;
+$btn-padding-y-sm: 0.5rem;
+$btn-line-height: 1;
+
+// Links
+$link-color: $light;
+$link-decoration: none;
+
+// Forms
+$form-label-font-size: 0.875rem;
+$form-label-font-weight: 500;
+$form-select-indicator-color: $body-color;
+
+// Inputs
+$input-border-color: $secondary;
+$input-group-addon-bg: $input-bg;
+
+// Container max widths
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+);
+
+// Grid breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+);
+
+// Enable negative margins
+$enable-negative-margins: true;
