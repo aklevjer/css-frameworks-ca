@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Sign in to SocialDev now and start sharing, chatting, and connecting with the community." />
+    <title>SocialDev - Sign In</title>
+    <link rel="icon" type="image/svg+xml" href="/src/assets/svg/logo.svg" />
+    <link rel="stylesheet" href="/dist/css/index.css" />
+    <script type="module" src="/src/js/index.js"></script>
+  </head>
+  <body class="min-vh-100 py-5 d-flex flex-column justify-content-center gap-5">
+    <header class="mx-auto">
+      <a href="/" class="d-flex align-items-center gap-2">
+        <img src="/src/assets/svg/logo.svg" alt="SocialDev logo" />
+        <span class="font-monospace fs-3 text-light">SocialDev</span>
+      </a>
+    </header>
+
+    <main class="container d-flex justify-content-center">
+      <section class="card">
+        <div class="card-body py-5 px-sm-5">
+          <h1 class="mb-3 text-capitalize text-center">Sign in</h1>
+          <p class="mb-4 text-center">Welcome! Please enter your details below.</p>
+
+          <form action="/profile/">
+            <div class="input-group mb-4">
+              <span class="input-group-text">
+                <i class="bi bi-envelope-fill"></i>
+              </span>
+
+              <div class="form-floating">
+                <input type="email" id="email" class="form-control" placeholder="email@example.com" required />
+                <label for="email">Email address</label>
+              </div>
+            </div>
+
+            <div class="input-group mb-4">
+              <span class="input-group-text">
+                <i class="bi bi-lock-fill"></i>
+              </span>
+
+              <div class="form-floating">
+                <input type="password" id="password" class="form-control" placeholder="Password" minlength="8" required />
+                <label for="password">Password</label>
+              </div>
+            </div>
+
+            <input type="submit" value="Sign in" class="btn btn-primary w-100 mb-3 text-capitalize" />
+            <p>Don't have an account? <a href="#" class="link-body-emphasis d-inline-block text-capitalize">Sign up</a></p>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
